@@ -26,7 +26,6 @@ function App() {
     <>
       <UserInput onUserInput={handleUserInput} />
       <Result results={calculateInvestmentResults(userInput)} />
-      <pre>{JSON.stringify(userInput, null, 2)}</pre>
     </>
   );
 }
